@@ -1,0 +1,60 @@
+.lrHeading {
+  margin: 0;
+  display: flex;
+  justify-content:center;
+}
+
+.login-content,
+.registration-content {
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 0 33%;
+  width: 33%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lrHeading-2 {
+  margin: 0 0 10px 0;
+}
+
+.lr-switch-words {
+  color: blue;
+}
+
+
+.lr-switch-words:hover {
+  text-decoration: underline;
+}
+
+/* .errorLoginMsg {
+  color: red;
+  font-weight: bold;
+} */
+
+
+
+/* media-queries */
+
+@media(max-width: 426px) {
+    .login-content, .registration-content{
+        margin: 0 5%;
+        width: 90%;
+      }
+}
+
+@media(max-width: 768px) {
+    .login-content, .registration-content{
+        margin: 0 12.5%;
+        width: 75%;
+      }
+}
+
+@media(max-width: 1024px) {
+    .login-content, .registration-content{
+      margin: 0 25%;
+      width: 50%;
+    }
+  }
